@@ -1,0 +1,56 @@
+[
+    {
+        "id": 1,
+        "poste": "Directeur d'hôtel",
+        "entreprise": "Hôtel Touraine Opéra",
+        "etoiles": 4,
+        "emplacement": "Paris 9ème Arr.",
+        "entrée": 2008,
+        "sortie": 2021,
+        "statut": "cadre"
+    },
+
+    {
+        "id": 2,
+        "poste": "Sous-Directeur/Directeur d'hôtel",
+        "entreprise": "Hôtel Louvre-Saint-Honoré",
+        "etoile": 4,
+        "emplacement": "Paris 1er Arr.",
+        "entrée": 2003,
+        "sortie": 2007,
+        "statut": "cadre"
+    },
+
+    {
+        "id": 3,
+        "poste": "Chef de réception",
+        "entreprise": "Hôtel Louvre-Saint-Honoré",
+        "etoiles": 4,
+        "emplacement": "Paris 1er Arr.",
+        "entrée": 2000,
+        "sortie": 2003,
+        "statut": "employé"
+    },
+
+    {
+        "id": 5,
+        "poste": "Réceptionniste d'hôtel",
+        "entreprise": "Grand Hôtel du Louvre",
+        "etoiles": 5,
+        "emplacement": "Paris 1er Arr.",
+        "entrée": 2000,
+        "sortie": 2000,
+        "statut": "employé"
+    },
+
+    {
+        "id": 6,
+        "poste": "Réceptionniste de nuit",
+        "entreprise": "Hôtel Garden-Elysées",
+        "etoiles": 4,
+        "emplacement": "Paris 16ème Arr.",
+        "entrée": 1997,
+        "sortie": 1999,
+        "statut": "employé"
+    }
+]
