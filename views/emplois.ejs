@@ -1,17 +1,23 @@
-<%- include('partials/header') %>
+<%- include('partials/header'); %>
 
-<h1><%= item.poste %></h1>
+<h1><%= locals.item.poste %></h1>
+
+<nav>
+    <button class="btn"><a href="/mon_cv_en_ligne">Retour CV</a></button>
+</nav>
 
 <ul>
-    <li>Entreprise: <%= item.entreprise %></li>
-    <li>Site internet: <%= item.lien %></li>
-    <li>Classement: <%= item.etoiles %> étoiles</li>
-    <li>Localisation: <%= item.emplacement %></li>
-    <li>Année d'entrée en poste: <%= item.entree %></li>
-    <li>Année de sortie du poste: <%= item.sortie %></li>
-    <li>Statut: <%= item.statut %></li>
+    <li>Entreprise: <%= locals.item.entreprise %></li>
+    <li>Site internet: <%= locals.item.lien %></li>
+    <li>Classement: <%= locals.item.etoiles %> étoiles</li>
+    <li>Localisation: <%= locals.item.emplacement %></li>
+    <li>Année d'entrée en poste: <%= locals.item.entree %></li>
+    <li>Année de sortie du poste: <%= locals.item.sortie %></li>
+    <li>Statut: <%= locals.item.statut %></li>
 </ul>
 
-<p>Mon expérience au sein de cet établissement: <%= item.commentaires %></p>
+<p>
+    Mon expérience au sein de cet établissement: <%= locals.item.commentaires %>
+</p>
 
-<%- include('partials/footer') %>
+<%- include('partials/footer'); %>
