@@ -1,0 +1,17 @@
+<%- include('partials/header') %>
+
+<h1><%= item.poste %></h1>
+
+<ul>
+    <li>Entreprise: <%= item.entreprise %></li>
+    <li>Site internet: <%= item.lien %></li>
+    <li>Classement: <%= item.etoiles %> étoiles</li>
+    <li>Localisation: <%= item.emplacement %></li>
+    <li>Année d'entrée en poste: <%= item.entree %></li>
+    <li>Année de sortie du poste: <%= item.sortie %></li>
+    <li>Statut: <%= item.statut %></li>
+</ul>
+
+<p>Mon expérience au sein de cet établissement: <%= item.commentaires %></p>
+
+<%- include('partials/footer') %>

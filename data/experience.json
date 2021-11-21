@@ -1,56 +1,66 @@
 [
     {
         "id": 1,
-        "poste": "Directeur d'hôtel",
+        "poste": "Directeur",
         "entreprise": "Hôtel Touraine Opéra",
+        "lien": "",
         "etoiles": 4,
         "emplacement": "Paris 9ème Arr.",
-        "entrée": 2008,
+        "entree": 2008,
         "sortie": 2021,
-        "statut": "cadre"
+        "statut": "cadre",
+        "commentaires": ""
     },
 
     {
         "id": 2,
-        "poste": "Sous-Directeur/Directeur d'hôtel",
+        "poste": "Sous-Directeur et Directeur",
         "entreprise": "Hôtel Louvre-Saint-Honoré",
-        "etoile": 4,
+        "lien": "",
+        "etoiles": 4,
         "emplacement": "Paris 1er Arr.",
-        "entrée": 2003,
+        "entree": 2003,
         "sortie": 2007,
-        "statut": "cadre"
+        "statut": "cadre",
+        "commentaires": ""
     },
 
     {
         "id": 3,
         "poste": "Chef de réception",
         "entreprise": "Hôtel Louvre-Saint-Honoré",
+        "lien": "",
         "etoiles": 4,
         "emplacement": "Paris 1er Arr.",
-        "entrée": 2000,
+        "entree": 2000,
         "sortie": 2003,
-        "statut": "employé"
+        "statut": "employé",
+        "commentaires": ""
+    },
+
+    {
+        "id": 4,
+        "poste": "Réceptionniste d'hôtel",
+        "entreprise": "Grand Hôtel du Louvre",
+        "lien": "",
+        "etoiles": 5,
+        "emplacement": "Paris 1er Arr.",
+        "entree": 2000,
+        "sortie": 2000,
+        "statut": "employé",
+        "commentaires": ""
     },
 
     {
         "id": 5,
-        "poste": "Réceptionniste d'hôtel",
-        "entreprise": "Grand Hôtel du Louvre",
-        "etoiles": 5,
-        "emplacement": "Paris 1er Arr.",
-        "entrée": 2000,
-        "sortie": 2000,
-        "statut": "employé"
-    },
-
-    {
-        "id": 6,
         "poste": "Réceptionniste de nuit",
         "entreprise": "Hôtel Garden-Elysées",
+        "lien": "",
         "etoiles": 4,
         "emplacement": "Paris 16ème Arr.",
-        "entrée": 1997,
+        "entree": 1997,
         "sortie": 1999,
-        "statut": "employé"
+        "statut": "employé",
+        "commentaires": ""
     }
 ]

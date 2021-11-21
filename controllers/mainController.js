@@ -5,18 +5,6 @@ const mainController = {
     getHomePage: (req, res) => {
         res.render('home');
     },
-
-    getCvPage: (req, res) => {
-        res.render('cvEnLigne');
-    },
-
-    getProjetsPage: (req, res) => {
-        res.render('projets');
-    },
-
-    getContactPage: (req, res) => {
-        res.render('contact');
-    },
 };
 
 module.exports = mainController;

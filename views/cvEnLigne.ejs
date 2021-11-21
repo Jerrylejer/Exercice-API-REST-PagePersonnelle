@@ -7,5 +7,13 @@
 </nav>
 
 <p>En construction</p>
+<ul>
+    <!-- exp remplace ma variable experiencePro -->
+    <% for (let exp of experiencePro) {%>
+    <li>
+        <a href="/mon_cv_en_ligne/<%= exp.id %>"> <%= exp.poste %> </a>
+    </li>
+    <%}%>
+</ul>
 
 <%- include('partials/footer') %>
