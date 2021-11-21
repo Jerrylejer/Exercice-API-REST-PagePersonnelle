@@ -19,11 +19,11 @@ const CvPageController = {
         for (let item of experiencePro) {
             // Si mon post.id est strictement égale au params de l'url
             if (item.id === jobId) {
-                // Ma variable currentPost prend la valeur de post
+                // Ma variable currentPost prend la valeur de item
                 currentPost = item;
             }
         }
-        //? Je rends ma vue emploi.ejs à laquelle je passe UN seul poste
+        //? Je rends ma vue emploi.ejs à laquelle je passe UN seul poste = curreentPost
         res.render('emplois', { item: currentPost });
     },
 };
